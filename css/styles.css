@@ -84,6 +84,11 @@ h2 {
   margin: 1rem;
 }
 
+.album-artista {
+  font-weight: 600;
+  color: #8E05C2;
+}
+
 footer {
   background-color: #3e065f;
   color: aliceblue;
