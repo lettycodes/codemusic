@@ -278,7 +278,7 @@ Mobile (0 - 480px)
 Tablet (481px - 768px)
 */
 @media (max-width: 1023px) {
-  main {
+  .main-albuns {
     display: none;
   }
 
@@ -288,7 +288,7 @@ Tablet (481px - 768px)
 }
 
 @media (max-width: 480px) {
-  main {
+  .main-albuns {
     display: none;
   }
 
