@@ -18,6 +18,10 @@ body {
     #2f4247,
     #3e565f
   );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 #titulo {
@@ -265,4 +269,90 @@ footer {
 
 #footer-texto {
   font-weight: 700;
+}
+
+/* 
+MEDIA QUERIES 
+Mobile (0 - 480px)
+Tablet (481px - 768px)
+*/
+@media (max-width: 1023px) {
+  main {
+    display: none;
+  }
+
+  footer {
+    position: absolute;
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  figure {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
+  .navbar img {
+    height: 50px;
+  }
+
+  .nav-buttons {
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .container-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .container-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .section-btn {
+    justify-content: center;
+  }
+
+  .container-number {
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 8px;
+  }
+
+  .img-aside {
+    display: none;
+  }
+
+  footer {
+    position: static;
+  }
 }
