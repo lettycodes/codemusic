@@ -150,3 +150,55 @@ footer {
   color: #3e065f;
   font-size: 12px;
 }
+
+
+@media (max-width: 480px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .login-box {
+    width: 350px;
+    height: 350px;
+    padding: 25px;
+    margin-top: 50px;
+  }
+
+  .btn {
+    width: 50%;
+  }
+
+  input,
+  label {
+    width: 75%;
+  }
+
+
+  figure {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
+  .navbar img {
+    height: 50px;
+  }
+
+  footer {
+    position: static;
+  }
+}
