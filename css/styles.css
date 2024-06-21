@@ -282,7 +282,7 @@ Tablet (481px - 768px)
     display: none;
   }
 
-  footer {
+  .footer-index {
     position: absolute;
   }
 }
@@ -352,7 +352,7 @@ Tablet (481px - 768px)
     display: none;
   }
 
-  footer {
+  .footer-index {
     position: static;
   }
 }
