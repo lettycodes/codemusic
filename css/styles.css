@@ -96,6 +96,7 @@ body {
 
 .container-number {
   display: flex;
+  padding: 0 25px;
 }
 
 .section-box1,
