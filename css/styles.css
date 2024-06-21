@@ -17,7 +17,7 @@ body {
   display: flex;
   height: 64px;
   justify-content: space-between;
-  padding: 12px;
+  padding: 12px 50px;
 }
 
 .navbar img {
