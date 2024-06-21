@@ -9,11 +9,115 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #f4f4f4;
+  /* background-color: #f4f4f4; */
+  background-image: linear-gradient(
+    to right,
+    #010707,
+    #151d1e,
+    #212f31,
+    #2f4247,
+    #3e565f
+  );
+}
+
+#titulo {
+  font-size: 3rem;
+  color: #fff;
+  margin: 3rem 3rem 0 3rem;
+}
+
+.paragrafos {
+  margin: 1rem 3rem 2rem 3rem;
+  color: #fff;
+}
+
+.section-btn {
+  display: flex;
+  margin: 0 3rem 3rem 3rem;
+  gap: 20px;
+}
+
+.btn-aside {
+  padding: 10px;
+  border-radius: 16px;
+  background-color: #04c076;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn-aside a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+}
+
+.btn-aside a:hover {
+  color: #fff;
+  transition: 0.9s;
+}
+
+.btn-aside2 {
+  padding: 10px;
+  border-radius: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn-aside2 a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+}
+
+.btn-nav2 a {
+  text-decoration: none;
+}
+
+.btn-aside2:hover {
+  background-color: #04c076;
+  transition: 0.9s;
+}
+
+.btn-aside2 a:hover {
+  color: #fff;
+}
+
+.section-box {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+
+}
+
+.section-box1, .section-box2 {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 96px;
+  padding: 15px;
+}
+
+.box-descricao {
+  /* margin: 0 3rem 3rem 3rem; */
+  color: white;
+  font-weight: 700;
+}
+
+.img-aside {
+  display: flex;
+  width: 300px;
+  justify-content: flex-end;
+  border-top-left-radius: 45%; 
+  border-top-right-radius: 45%;
+  border-bottom-left-radius: 45%;
+  border-bottom-right-radius: 45%;
 }
 
 .navbar {
-  background-color: #3e065f;
+  /* background-color: #3e065f; */
   display: flex;
   height: 64px;
   justify-content: space-between;
@@ -21,7 +125,7 @@ body {
 }
 
 .navbar img {
-  height: 100%;
+  height: 130%;
 }
 
 nav a {
@@ -32,7 +136,11 @@ nav a {
 }
 
 nav a:hover {
-  color: #8e05c2;
+  color: #fff;
+}
+
+.nav-buttons button:hover {
+  background-color: #04c076;
 }
 
 .nav-links {
@@ -42,27 +150,51 @@ nav a:hover {
   gap: 2rem;
 }
 
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.btn-nav {
+  padding: 10px;
+  border-radius: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn-nav2 {
+  padding: 10px;
+  border-radius: 16px;
+  background-color: #04c076;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.login-inscrever {
+  color: #010707;
+  font-weight: 700;
+}
+
 h2 {
-  color: #3e065f;
+  color: #fff;
   text-align: center;
   margin-top: 2rem;
 }
 
 .albuns {
-  background-color: rgb(252, 252, 252);
+  /* background-color: rgb(252, 252, 252); */
   display: flex;
   align-items: center;
   padding: 0 50px;
   justify-content: space-between;
   gap: 2rem;
   /* border-bottom: 1px solid #3e065f; */
-  box-shadow: #3e065f 0px 2px 8px 0px;
   border-radius: 30px;
   margin: 40px;
 }
 
 .album-titulo {
-  color: #3e065f;
+  color: #fff;
   font-weight: 700;
 }
 
@@ -86,14 +218,22 @@ h2 {
 
 .album-artista {
   font-weight: 600;
-  color: #8E05C2;
+  color: #fff;
+}
+
+.album-ano {
+  color: #fff;
 }
 
 footer {
-  background-color: #3e065f;
+  /* background-color: #3e065f; */
   color: aliceblue;
   text-align: center;
   padding: 1rem;
   bottom: 0;
   width: 100%;
+}
+
+#footer-texto {
+  font-weight: 700;
 }
