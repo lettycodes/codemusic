@@ -6,7 +6,7 @@
 - HTML
 - CSS
 
-# Requirementos
+# Implementações
 - Formas de uso do CSS
 - Seletores básicos (elementos, classes e IDs)
 - Textos, fontes e cores
