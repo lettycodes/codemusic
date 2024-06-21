@@ -41,3 +41,22 @@ main {
 footer {
   position: absolute;
 }
+
+@media (max-width: 1023px) {
+  .container-descricao {
+    width: 400px;
+    margin-top: 80px;
+  }
+
+  h1,h2{
+    
+    font-size: 24px;
+  }
+  p,ul{
+    font-size: 12px;
+  }
+  .toogle{
+    padding: 20px;
+  }
+
+}
