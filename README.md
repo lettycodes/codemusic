@@ -1,8 +1,11 @@
 # Preview
 
 ## CodeMusic
+<p align="center">
+  <img src="img/previw.jpg" alt="Primeira Imagem" width="600"/>
+  <img src="img/mobile_view.jpg" alt="Segunda Imagem" width="160"/>
+</p>
 
-![ CodeMusic](img/previw.jpg)
 
 ## O que é o CodeMusic?
 
